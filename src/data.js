@@ -21,12 +21,12 @@ export default {
     "column-1": {
       id: "column-1",
       name: "Column 1",
-      taskIds: ["task-1", "task-2"]
+      taskIds: ["task-1", "task-2", "task-3", "task-4"]
     },
     "column-2": {
       id: "column-2",
       name: "Column 2",
-      taskIds: ["task-3", "task-4"]
+      taskIds: []
     },
     "column-3": {
       id: "column-3",
