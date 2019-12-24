@@ -43,7 +43,7 @@ const Column = ({ column, tasks, index }) => {
           isDragging={snapshot.isDragging}
         >
           <Title {...provided.dragHandleProps}>{column.name}</Title>
-          <Droppable droppableId={column.id} type="column">
+          <Droppable droppableId={column.id} type="task">
             {(provided, snapshot) => {
               return (
                 <TaskList
